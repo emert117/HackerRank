@@ -22,6 +22,9 @@ class Result
      * The function accepts following parameters:
      *  1. INTEGER steps
      *  2. STRING path
+     *  
+     *  8
+     *  UDDUUUDD
      */
 
     public static int countingValleys(int steps, string path)
