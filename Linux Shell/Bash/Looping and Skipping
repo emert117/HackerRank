@@ -1,0 +1,10 @@
+#!/bin/bash
+
+int=1
+while(( $int<=99 ))
+do
+    if (( $int%2 == 1 )); then
+        echo $int
+    fi
+let "int++"
+done
