@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "x: " xvalue
+read -p "y: " yvalue
+echo $((sum = xvalue + yvalue))
+echo $((minus = xvalue - yvalue))
+echo $((multi = xvalue * yvalue))
+echo $((div = xvalue / yvalue))
