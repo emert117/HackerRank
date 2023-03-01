@@ -1,0 +1,9 @@
+#!/bin/bash
+read number;
+if [ $number == 'Y' ] || [ $number == 'y' ]
+then
+    echo "YES";
+elif
+    [ $number == 'N' ] || [ $number == 'n' ] ;then
+    echo "NO";
+fi
