@@ -1,0 +1,13 @@
+#!usr/bin/env bash
+
+read ONE
+read TWO
+read THREE
+
+if [ $ONE == $TWO ] && [ $TWO == $THREE ]; then
+    echo 'EQUILATERAL'
+elif [ $ONE == $TWO ] || [ $TWO == $THREE ] || [ $THREE == $ONE ]; then
+    echo 'ISOSCELES'
+else
+    echo "SCALENE"
+fi
