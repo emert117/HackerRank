@@ -1,0 +1,3 @@
+#!/bin/bash
+read num
+printf "%.3f\n" $(echo $num | bc -l)
